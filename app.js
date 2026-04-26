@@ -7,7 +7,7 @@ const { Server } = require("socket.io");
 
 const activitiesRoute = require("./src/routes/activityRoutes");
 
-const allowedOrigins = [process.env.CLIENT_URL, "https://dmacq.netlify.app/"];
+const allowedOrigins = [process.env.CLIENT_URL, "https://dmacq.netlify.app"];
 
 const app = express();
 
